@@ -1,15 +1,16 @@
 import React from 'react'
-import { Layout } from './layout/layout'
-import ThemeWrapper from './components/ThemeWrapper'
+import { Toaster } from 'react-hot-toast';
+ import  Layout  from './layout/Layout'
+
 function App() {
  
   return (
     <>
-    <ThemeWrapper>
-    <Layout/>
-    </ThemeWrapper>
+    
 
 
+<Layout/>
+<Toaster position="top-center" />
 
        
 
