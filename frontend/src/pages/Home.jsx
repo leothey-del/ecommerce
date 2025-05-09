@@ -1,7 +1,8 @@
 import React from 'react';
 
-import CardItem from '../components/products/CardItem';
+
 import CategoryList from '../components/products/CategoryList';
+import ProductList from '../components/products/ProducList';
 
 const Home = () => {
  
@@ -9,9 +10,11 @@ const Home = () => {
 
   return (
     <div className='py-4'>  
-      <CardItem/>
+   
+   
+      
+     <ProductList/>
      <CategoryList/>
-     <CardItem/>
      </div>
   )
 }
